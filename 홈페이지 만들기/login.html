@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로그인 페이지</title>
+</head>
+<body>
+  <h2>로그인하세요.</h2>
+  <form  id="loginForm" onsubmit="return login()">
+    <label for="userID">ID : </label>
+    <input type="text" id="userID" name="userID" required autocomplete="off"><br>
+    <label for="password">PASSWORD : </label>
+    <input type="text" id="password" name="password" required autocomplete="off"><br>
+    <input type="submit" value="로그인">
+  </form>
+
+  <p id="message" style="color : red"></p>
+
+  <script src="js/홈페이지.js"></script>
+ 
+</body>
+</html>
